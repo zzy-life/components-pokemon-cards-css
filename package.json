@@ -1,9 +1,15 @@
 {
   "name": "vue-pokemon-cards-css",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Vue implementation of Pokémon Cards Holographic effect in CSS (from https://github.com/simeydotme/pokemon-cards-css)",
   "author": "时不待我 <790002517@qq.com>",
   "license": "MIT",
+  "keywords":["pokemon-cards-css","vue-pokemon-cards-css","card animation"],
+  "repository": { 
+  "type": "git",
+  "url": "https://github.com/zzy-life/components-pokemon-cards-css.git"
+},
+"homepage": "https://github.com/zzy-life/components-pokemon-cards-css",
   "main": "dist/vue-pokemon-cards-css.ssr.js",
   "browser": "dist/vue-pokemon-cards-css.esm.js",
   "module": "dist/vue-pokemon-cards-css.esm.js",
