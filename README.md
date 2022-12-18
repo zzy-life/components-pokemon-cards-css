@@ -5,7 +5,8 @@ This is a repository holder for the Pokemon Cards CSS Holographic effect.
 🔥 As seen on [css-tricks.com](https://css-tricks.com/holographic-trading-card-effect/) and [codepen](https://codepen.io/simeydotme/pen/abYWJdX)  
 🌟 Demo running @ https://poke-holo.simey.me/
 
-Vue implementation of Pokémon Cards Holographic effect in CSS (from https://github.com/simeydotme/pokemon-cards-css)
+Vue implementation of Pokémon Cards Holographic effect in CSS (from https://github.com/simeydotme/pokemon-cards-css).
+Thanks to the vue implementation of (https://github.com/Maurier/vue-pokemon-cards-css)
 
 ### A collection of advanced CSS styles, applied with vue.js.
 
