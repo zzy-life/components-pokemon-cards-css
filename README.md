@@ -30,7 +30,7 @@ npm i vue-pokemon-cards-css
 
 
 
-## use
+## Example
 
 Here 
 
