@@ -2,7 +2,7 @@
  * @Author: 时不待我 790002517@qq.com
  * @Date: 2022-12-17 22:18:59
  * @LastEditors: 时不待我 790002517@qq.com
- * @LastEditTime: 2022-12-18 13:16:53
+ * @LastEditTime: 2022-12-18 14:37:39
 -->
 <script lang="ts">
 import Vue from "vue";
@@ -48,6 +48,7 @@ export default Vue.extend({
           :name="card.name"
           :img="card.images.large"
           :number="card.number"
+          backimg="https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
           :supertype="card.supertype"
           :subtypes="card.subtypes"
           :rarity="card.rarity"

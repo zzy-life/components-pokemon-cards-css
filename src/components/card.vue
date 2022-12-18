@@ -2,7 +2,7 @@
  * @Author: 时不待我 790002517@qq.com
  * @Date: 2022-12-17 22:24:29
  * @LastEditors: 时不待我 790002517@qq.com
- * @LastEditTime: 2022-12-18 00:19:33
+ * @LastEditTime: 2022-12-18 14:31:14
 -->
 <template>
   <div
@@ -63,6 +63,7 @@ export default class Card extends Vue {
   @Prop() name!: string;
   @Prop() number!: number;
   @Prop() supertype!: string;
+  @Prop() backimg!: string;
   @Prop() subtypes!: string[];
   @Prop() rarity!: string;
   @Prop() gallery!: boolean;
@@ -84,12 +85,11 @@ export default class Card extends Vue {
   private firstPop = true;
   interacting = false;
   loading = true;
-  back_img = "";
   debounce;
   back_loading;
   front_loading;
   front_img = "";
-
+  back_img = this.backimg;
   get styles() {
     return `
 		--mx: ${this.springGlare.values.x}%;
@@ -120,7 +120,12 @@ export default class Card extends Vue {
       ? ""
       : "https://images.pokemontcg.io/";
     this.front_img = img_base + this.img;
-    this.back_img = back_img;
+
+    if (this.backimg == "" || this.backimg == undefined) {
+      this.back_img = back_img;
+    } else {
+      this.back_img = this.backimg;
+    }
   }
   mounted() {
     window.addEventListener("scroll", this.reposition, true);
@@ -275,8 +280,8 @@ export default class Card extends Vue {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/css/global.scss';
-@import '../assets/css/cards.scss';
+@import "../assets/css/global.scss";
+@import "../assets/css/cards.scss";
 :root {
   --mx: 50%;
   --my: 50%;
