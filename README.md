@@ -1,6 +1,6 @@
 # Pokémon Cards Holographic effect in CSS
 
-This is a repository holder for the Pokemon Cards CSS Holographic effect.  
+This is the NPM repository for the Pokemon Cards CSS Holographic Effect
 
 🔥 As seen on [css-tricks.com](https://css-tricks.com/holographic-trading-card-effect/) and [codepen](https://codepen.io/simeydotme/pen/abYWJdX)  
 🌟 Demo running @ https://poke-holo.simey.me/
